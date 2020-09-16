@@ -1,0 +1,287 @@
+@charset "utf-8";
+@media screen and (min-width: 768px) {
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family:"Hiragino Sans", "Hiragino Kaku Gothic ProN", Meiryo, "sans-serif";
+}
+
+li {
+    list-style-type: none;
+}
+
+img {
+    border: none;
+    display: block;
+}
+
+header {
+        width: 100%;
+        height: auto;
+    }    
+
+    
+#mainphoto {
+      background-image:  url("common/images/mainphoto.jpg");
+      background-size: cover;
+      background-position: center 0;
+      width: 100%;
+      background-repeat: no-repeat;
+      height: 978px; 
+      
+    }
+
+
+ nav {
+        width: 30%;
+        top: 80px;
+        left: 1508px;
+        position: fixed;
+    }
+    
+    nav li {
+        display: block;
+        float: left;
+        padding-right: 40px;
+        
+    } 
+    
+    
+    nav li:nth-child(4) {
+        padding: 0;
+    }
+    
+    nav a {
+        text-decoration: none;
+        font-size: 18px;
+        color: #111;
+        text-shadow: 1px 1px 1px rgba(0,0,0,0);
+        
+    }
+    
+    #square {
+        border: solid 2px #111;
+        display: block;
+        height: 24px;
+        box-sizing: border-box;
+    }
+    
+    #square:hover {
+        border: solid 2px #40b466;
+        box-sizing: border-box;
+    }
+    
+    nav a:hover {
+        color: #40b466;
+        transition: .4s;
+    } 
+
+    h1 {
+        
+        
+        padding: 459px 0 459px 0;
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+        
+    }
+
+    h1 span {
+        font-size: 24px;
+        color: #FFFFFF;
+        font-weight: bold;
+        background-color: #558252;
+        width: 394px;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 12px 0 12px 0;
+        
+    }
+
+
+    #newscontents {
+        width: 1000px;
+        margin: 100px auto 100px auto;
+        
+    }
+    
+    
+    
+    #newscontents ul {
+     
+        
+        
+    }
+    
+    #newscontents li {
+       
+       display: block;
+       padding-bottom: 20px;
+       border-bottom: 1px dotted;
+       margin-bottom: 56px;
+       clear: both; 
+       overflow: hidden; 
+        
+        
+    }
+
+    #newscontents a {
+       
+       float: left;
+       
+        
+        
+        
+        
+    }
+    
+    
+    
+    
+    
+    .textbox {
+       font-size: 14px;  
+       float: left;
+       padding: 0 0 0 30px; 
+    }
+    
+    
+    
+    
+    .textbox h2 {
+       font-size: 13px; 
+       padding-bottom: 3px; 
+       clear: both; 
+        
+        
+        
+    }
+
+
+    .textbox a {
+       text-decoration: none;
+       color: #111;
+       font-size: 15px; 
+       clear: both; 
+        
+        
+    }
+    
+    .textbox a::after {
+       border-bottom: solid 1px #111;
+       bottom: 0px;
+       content: "";
+       display: block;
+       transition: all .3s ease;
+       -webkit-transition: all .3s ease;
+       width: 0;
+        
+        
+        
+        
+    }
+    
+    .textbox a:hover::after {
+        width: 100%;
+ 
+    }
+     
+    
+    .textbox span {
+        display: block;
+        text-align: left;
+        clear: both;
+    }
+
+    footer {
+        clear: both;
+        background-image: url("common/images/wabe_ft.png");
+        background-size: cover;
+        background-position:center 0;
+        width: 100%;
+        height: auto;
+    }  
+    
+    
+    #footerinner {
+       width: 294px;
+       margin-right: auto;
+       margin-left: auto;
+       font-size: 14px;
+       padding-top: 42px;
+       padding-bottom: 38px;
+    }
+    
+    #footerinner figure {
+       width: 256px;
+       margin-right: auto;
+       margin-left: auto;
+        
+    }
+    
+    #footerinner p {
+        text-align: center;
+    } 
+    
+    #footertext {
+        margin: 26px 0px 34px 0;
+    }
+
+    .top_button {
+	   margin: 0 ;
+	   padding: 0 ;
+       display: none;
+}
+ 
+    .top_button p {
+	  margin: 0 ;
+	  padding: 0 ;
+	  position: fixed ;
+	  right: 26px ;
+	  bottom: 26px ;
+}
+    
+ .move-page-top
+{
+	display: block ;
+	background: #D36015 ;
+	width: 50px ;
+	height: 50px ;
+
+	color: #fff ;
+	line-height: 50px ;
+	text-decoration: none ;
+	text-align: center ;
+
+	-webkit-transition:all 0.3s ;
+	-moz-transition:all 0.3s ;
+	transition:all 0.3s ;
+}
+
+.move-page-top:hover
+{
+	opacity: 0.85 ;
+}   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
